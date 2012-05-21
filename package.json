@@ -1,0 +1,25 @@
+{
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com/)",
+  "name": "seaport-mdns",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": "bin/cli.js",
+  "dependencies": {
+    "mdns": "~0.0.6",
+    "seaport": "~0.7.5",
+    "optimist": "~0.3.4",
+    "colors": "~0.6.0-1"
+  },
+  "devDependencies": {
+    "request": "~2.9.202"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "description": "Seaport mdns",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tellnes/seaport-mdns.git"
+  }
+}
